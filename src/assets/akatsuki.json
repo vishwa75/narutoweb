@@ -1,0 +1,84 @@
+[
+      {
+        "name": "Pain",
+        "real_name": "Nagato",
+        "rank": "Leader",
+        "specialty": [
+          "Rinnegan",
+          "Summoning Jutsu"
+        ]
+      },
+      {
+        "name": "Konan",
+        "rank": "Member",
+        "specialty": [
+          "Paper Ninjutsu"
+        ]
+      },
+      {
+        "name": "Uchiha Itachi",
+        "rank": "Member",
+        "specialty": [
+          "Sharingan",
+          "Genjutsu"
+        ]
+      },
+      {
+        "name": "Kisame Hoshigaki",
+        "rank": "Member",
+        "specialty": [
+          "Samehada",
+          "Water Release"
+        ]
+      },
+      {
+        "name": "Deidara",
+        "rank": "Member",
+        "specialty": [
+          "Explosive Clay",
+          "Earth Release"
+        ]
+      },
+      {
+        "name": "Sasori",
+        "rank": "Member",
+        "specialty": [
+          "Puppetry",
+          "Poison"
+        ]
+      },
+      {
+        "name": "Hidan",
+        "rank": "Member",
+        "specialty": [
+          "Immortality",
+          "Scythe Combat"
+        ]
+      },
+      {
+        "name": "Kakuzu",
+        "rank": "Member",
+        "specialty": [
+          "Five Hearts",
+          "Earth Grudge Fear"
+        ]
+      },
+      {
+        "name": "Zetsu",
+        "rank": "Member",
+        "specialty": [
+          "Merging",
+          "Spore Release"
+        ]
+      },
+      {
+        "name": "Tobi",
+        "real_name": "Obito Uchiha",
+        "rank": "Member",
+        "specialty": [
+          "Sharingan",
+          "Kamui"
+        ]
+      }
+    ]
+  

@@ -1,0 +1,21 @@
+
+[
+    {
+        "header":"name"
+    },
+    {
+        "header":"location"
+    },
+    {
+        "header":"description"
+    },
+    {
+        "header":"leader"
+    },
+    {
+        "header":"notable_clans"
+    },
+    {
+        "header":"notable_shinobi"   
+    }
+]

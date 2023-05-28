@@ -1,0 +1,23 @@
+[
+    {
+        "header":"id"
+    },
+    {
+        "header":"Character"
+    },
+    {
+        "header":"Birthday"
+    },
+    {
+        "header":"Kekkei Genkai"
+    }, 
+    {
+        "header":"Occupation"
+    },
+    {
+        "header":"Team"
+    },
+    {
+        "header":"Classification"
+    }
+]

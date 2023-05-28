@@ -1,0 +1,17 @@
+<div class="flex items-center justify-center min-h-screen bg-gradient-to-r from-indigo-100 via-purple-100 to-pink-100">
+  <div class="w-2/5 bg-gray-100 shadow-md rounded-xl p-8">
+    <h2 class="text-2xl font-bold mb-4 text-orange-700">Forget Password</h2>
+    <form > 
+      <div class="mb-4">
+        <label for="email" class="mt-4 block mb-2 text-sm font-medium text-orange-700">Email</label>
+        <input type="email" id="email" name="email" class=" mt-4 w-full px-4 py-2 border border-gray-300 rounded-full" [(ngModel)]="email">
+      </div>
+      
+      <div class="flex items-center justify-between">
+          <button type="submit" class=" mt-4 bg-orange-500 text-white text-3xl px-16 py-2 rounded-full hover:bg-orange-800 transition-colors duration-200">Submit</button>    
+          <button routerLink="/auth/Login" class=" mt-4 bg-orange-500 text-white text-3xl px-16 py-2 rounded-full hover:bg-orange-800 transition-colors duration-200">Bank To Login</button>
+      </div>
+    </form>     
+  </div>
+  
+</div>

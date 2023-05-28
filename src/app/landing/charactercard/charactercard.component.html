@@ -1,0 +1,23 @@
+<div class="w-full flex justify-center mb-4">
+    <!-- <input class="placeholder-gray-600 mr-2 w-1/4 px-4 py-2 border border-gray-300 rounded-full " placeholder="Search..." type="text"> -->
+    <input class="placeholder-gray-600 mr-2 w-1/4 px-4 py-2 border border-gray-300 rounded-full"
+    placeholder="Search By Name..."
+    type="text"
+    [(ngModel)]="searchTerm"
+    (input)="filterCards()">
+  </div>
+<div class="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-24 place-items-center">
+   
+    <div (click)="onCardClick()" class="hover:scale-105 transition-all duration-500 max-w-sm rounded overflow-hidden shadow-lg" *ngFor="let nu of nd">
+      <img class="w-full" [src]="nu.images" [alt]="nu.name">
+      <div class="bg-slate-50 px-6 py-4">
+        <div class="font-bold text-xl mb-2">{{nu.name}}</div>
+        <p class="text-gray-700 text-base">
+          {{nu.about[0]}}
+        </p>
+      </div>
+    </div>
+  </div>
+  
+
+  

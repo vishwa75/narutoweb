@@ -1,0 +1,51 @@
+[
+
+    {
+      "name": "Konohagakure",
+      "location": "Land of Fire",
+      "description": "The Hidden Leaf Village is known for its strong military and has produced many powerful shinobi.",
+      "leader": "Hokage",
+      "notable_clans": ["Uchiha", "Hyuga", "Senju"],
+      "notable_shinobi": ["Naruto Uzumaki", "Sasuke Uchiha", "Kakashi Hatake"]
+    },
+    {
+      "name": "Sunagakure",
+      "location": "Land of Wind",
+      "description": "The Hidden Sand Village specializes in wind-based techniques and is surrounded by a desert.",
+      "leader": "Kazekage",
+      "notable_clans": ["Kazekage Clan", "Marionette Clan"],
+      "notable_shinobi": ["Gaara", "Temari", "Kankuro"]
+    },
+    {
+      "name": "Kirigakure",
+      "location": "Land of Water",
+      "description": "The Hidden Mist Village is known for its mist-covered environment and skilled swordsmen.",
+      "leader": "Mizukage",
+      "notable_clans": ["Hozuki Clan", "Yuki Clan"],
+      "notable_shinobi": ["Kisame Hoshigaki", "Zabuza Momochi", "Suigetsu Hozuki"]
+    },
+    {
+      "name": "Kumogakure",
+      "location": "Land of Lightning",
+      "description": "The Hidden Cloud Village specializes in lightning-based techniques and is home to the Raikage.",
+      "leader": "Raikage",
+      "notable_clans": ["Yotsuki Clan", "Kumo Clan"],
+      "notable_shinobi": ["Killer Bee", "Darui", "Omoi"]
+    },
+    {
+      "name": "Iwagakure",
+      "location": "Land of Earth",
+      "description": "The Hidden Stone Village is known for its strong and enduring shinobi.",
+      "leader": "Tsuchikage",
+      "notable_clans": ["Akimichi Clan", "Kamizuru Clan"],
+      "notable_shinobi": ["Deidara", "Kurotsuchi", "Akatsuchi"]
+    },
+    {
+      "name": "Amegakure",
+      "location": "Land of Rain",
+      "description": "The Hidden Rain Village is associated with political unrest and criminal organizations.",
+      "leader": "Amekage",
+      "notable_clans": ["Pein's Clan", "Hanzo's Clan"],
+      "notable_shinobi": ["Nagato", "Konan", "Jiraiya"]
+    }
+  ]

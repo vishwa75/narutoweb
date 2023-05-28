@@ -1,0 +1,18 @@
+[
+    {
+        "header":"name"
+    },
+    {
+        "header":"number_of_tails"
+    },
+    {
+        "header":"abilities"
+    },
+    {
+        "header":"description"
+    },
+    {
+        "header":"jinchuuriki"
+    }
+    
+]

@@ -1,0 +1,28 @@
+
+    <div class=" top-0 bg-blue-900 sticky p-2  flex w-full flex-wrap items-center justify-between z-50 ">
+        <!-- overflow-hidden fixed top-0 w-full -->
+        <div>
+            <p [routerLink]="['/landing/naruto/cardchar']" class="cursor-default pl-4 text-2xl font-bold text-orange-400 hover:scale-150 transition-all duration-500">Naruto</p>
+        </div>
+        <div>
+            <ul class="flex flex-wrap items-center space-x-10">
+                <li [routerLink]="['/landing/naruto/cardchar']" class=" cursor-default text-orange-400 font-semibold hover:scale-125 transition-all duration-500">Characture Card</li>
+                <li [routerLink]="['/landing/naruto/allchar']" class=" cursor-default text-orange-400 font-semibold hover:scale-125 transition-all duration-500">Characture List</li>
+                <li [routerLink]="['/landing/naruto/villages']" class="cursor-default text-orange-400 font-semibold hover:scale-125 transition-all duration-500">Village</li>
+                <li [routerLink]="['/landing/naruto/tailedbeast']" class="cursor-default text-orange-400 font-semibold hover:scale-125 transition-all duration-500">Tailed Beast</li>
+                <!-- <li [routerLink]="['/landing/naruto/hokage']" class="cursor-default text-orange-400 font-semibold hover:scale-125 transition-all duration-500">Hokage</li> -->
+                <li [routerLink]="['/landing/naruto/Akatsuki']" class="cursor-default text-orange-400 font-semibold hover:scale-125 transition-all duration-500">Akatsuki</li>
+            </ul>
+        </div>
+        <div class=" flex justify-between items-center">
+    
+            <img [routerLink]="['/landing/naruto/cardchar']" class="hover:rotate-180" src="../../assets/icons8-sharingan-100.png" width="60px" height="60px" alt="Sharingan">
+            <a [routerLink]="['Login']" class="bg-orange-500 text-white px-4 py-2 rounded-md hover:bg-orange-800 transition-colors duration-200">Logout</a>
+        </div>
+    </div>
+    <div class="p-20 ">
+        <router-outlet></router-outlet>
+    
+    </div>
+    
+ 

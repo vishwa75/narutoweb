@@ -1,0 +1,114 @@
+[
+    {
+      "name": "Shukaku",
+      "number_of_tails": 1,
+      "abilities": [
+        "Wind Release",
+        "Control over Sand"
+      ],
+      "description": "Shukaku, also known as the One-Tail, is a Tailed Beast with a single tail. It possesses the ability to control and manipulate sand, as well as use Wind Release techniques.",
+      "jinchuuriki": [
+        "Sabaku no Gaara (current)"
+      ]
+    },
+    {
+      "name": "Matatabi",
+      "number_of_tails": 2,
+      "abilities": [
+        "Blue Fire Release",
+        "Enhanced Speed"
+      ],
+      "description": "Matatabi, also known as the Two-Tails, is a Tailed Beast with two tails. It possesses the ability to generate and control blue fire, as well as exceptional speed.",
+      "jinchuuriki": []
+    },
+    {
+      "name": "Isobu",
+      "number_of_tails": 3,
+      "abilities": [
+        "Coral Release",
+        "Water Manipulation"
+      ],
+      "description": "Isobu, also known as the Three-Tails, is a Tailed Beast with three tails. It possesses the ability to manipulate water and create coral structures.",
+      "jinchuuriki": [
+        "Yagura Karatachi (former)"
+      ]
+    },
+    {
+      "name": "Son Goku",
+      "number_of_tails": 4,
+      "abilities": [
+        "Lava Release",
+        "Enhanced Strength"
+      ],
+      "description": "Son Goku, also known as the Four-Tails, is a Tailed Beast with four tails. It possesses the ability to use Lava Release techniques and has incredible physical strength.",
+      "jinchuuriki": []
+    },
+    {
+      "name": "Kokuō",
+      "number_of_tails": 5,
+      "abilities": [
+        "Boil Release",
+        "Illusionary Mist"
+      ],
+      "description": "Kokuō, also known as the Five-Tails, is a Tailed Beast with five tails. It possesses the ability to use Boil Release, creating corrosive steam, as well as generating an illusionary mist.",
+      "jinchuuriki": []
+    },
+    {
+      "name": "Saiken",
+      "number_of_tails": 6,
+      "abilities": [
+        "Corrosive Acid",
+        "Healing Abilities"
+      ],
+      "description": "Saiken, also known as the Six-Tails, is a Tailed Beast with six tails. It possesses the ability to generate corrosive acid and has potent healing abilities.",
+      "jinchuuriki": []
+    },
+    {
+      "name": "Chōmei",
+      "number_of_tails": 7,
+      "abilities": [
+        "Insect Control",
+        "Flight"
+      ],
+      "description": "Chōmei, also known as the Seven-Tails, is a Tailed Beast with seven tails. It possesses the ability to control insects and has the ability to fly.",
+      "jinchuuriki": []
+    },
+    {
+      "name": "Gyūki",
+      "number_of_tails": 8,
+      "abilities": [
+        "Giant Ox Form",
+        "Octopus Tentacles"
+      ],
+      "description": "Gyūki, also known as the Eight-Tails, is a Tailed Beast with eight tails. It possesses the ability to transform into a massive ox-like creature and has octopus-like tentacles.",
+      "jinchuuriki": [
+        "Killer B (current)"
+      ]
+    },
+    {
+      "name": "Kurama",
+      "number_of_tails": 9,
+      "abilities": [
+        "Vast Chakra Reserves",
+        "Superhuman Strength",
+        "Regeneration",
+        "Fire Release",
+        "Chakra Manipulation"
+      ],
+      "description": "Kurama, also known as the Nine-Tails, is a Tailed Beast with nine tails. It possesses immense chakra and is one of the strongest among the Tailed Beasts. Kurama's chakra manifests as a fiery red color and grants its Jinchuuriki great power and vitality.",
+      "jinchuuriki": [
+        "Uzumaki Naruto",
+        "Uzumaki Kushina (formerly)"
+      ]
+    },
+    {
+      "name": "Ten-Tails",
+      "number_of_tails": 10,
+      "abilities": [
+        "God-like Power",
+        "Tailed Beast Ball"
+      ],
+      "description": "The Ten-Tails is the original Tailed Beast from which all other Tailed Beasts originated. It possesses immense power and is considered the most formidable of all the Tailed Beasts. The Ten-Tails has the ability to use a devastating attack known as the Tailed Beast Ball.",
+      "jinchuuriki": []
+    }
+  ]
