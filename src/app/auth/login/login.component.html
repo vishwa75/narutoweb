@@ -1,6 +1,16 @@
 <div class="flex items-center justify-center min-h-screen bg-gradient-to-r from-indigo-100 via-purple-100 to-pink-100">
-    <div class="w-2/5 bg-gray-100 shadow-md rounded-xl p-8">
-      <h2 class="text-2xl font-bold mb-4 text-orange-700">Login</h2>
+ 
+  <div class="w-2/5 bg-gray-100 shadow-md rounded-xl p-8">
+
+    <div class="flex items-center justify-between">
+      <h2 class="text-2xl font-bold mb-4 mt-4 text-orange-700">Login</h2>
+      <div *ngIf="incorrectPs"   class="flex flex-row-reverse items-center justify-between space-x-2 ">
+       
+        <img *ngFor="let nu of numarr" [src]="nu" alt="Star" width="30px" height="30px">
+      </div> 
+  </div>
+
+      
       <form (ngSubmit)="onSubmit()"> 
         <div class="mb-4">
           <label for="email" class="mt-4 block mb-2 text-sm font-medium text-orange-700">Email</label>
@@ -11,13 +21,13 @@
           <input type="password" id="password" name="password" class=" mt-4 w-full px-4 py-2 border border-gray-300 rounded-full" [(ngModel)]="password">
         </div>
         <div class="flex items-center justify-between">
-            <button type="submit" class=" mt-4 bg-orange-500 text-white text-3xl px-16 py-2 rounded-full hover:bg-orange-800 transition-colors duration-200">Login</button>
+            <button type="submit" class=" mt-4 bg-orange-500 text-white text-3xl px-16 py-1 rounded-full hover:bg-orange-800 transition-colors duration-200">Login</button>
             <a [routerLink]="['/auth/forget']" class=" mt-4 text-orange-700 hover:underline">Forgot password?</a>
-            <button routerLink="/auth/register" class=" mt-4 bg-orange-500 text-white text-3xl px-16 py-2 rounded-full hover:bg-orange-800 transition-colors duration-200">Register</button>
+            <button routerLink="/auth/register" class=" mt-4 bg-orange-500 text-white text-3xl px-16 py-1 rounded-full hover:bg-orange-800 transition-colors duration-200">Register</button>
         </div>
       </form> 
       <br>
-      <div *ngIf="incorrectPs" class="text-red-600 text-2xl font-bold"> Incorrect usernamer or password </div>    
+      <div *ngIf="incorrectPs" class="text-red-600 text-2xl font-bold">{{warningLine}}</div>    
     </div>
     
   </div>

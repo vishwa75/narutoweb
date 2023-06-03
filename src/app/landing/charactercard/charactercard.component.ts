@@ -15,6 +15,8 @@ export class CharactercardComponent implements OnInit {
   
   
   searchTerm: string = '';
+  noResult: Boolean = false;
+
 
   constructor(private router: Router) { }
  
@@ -27,11 +29,16 @@ export class CharactercardComponent implements OnInit {
 
   filterCards() {
     if (!this.searchTerm) {
+      this.noResult = false;
       this.nd = narutojson;
     } else {
+      this.noResult = false;
       this.nd = narutojson.filter((nu: { name: string; }) =>
         nu.name.toLowerCase().includes(this.searchTerm.toLowerCase())
       );
+    }
+    if(this.nd.length == 0){
+     this.noResult=true
     }
   }
   
